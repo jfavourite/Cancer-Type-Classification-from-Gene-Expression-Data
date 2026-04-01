@@ -85,26 +85,6 @@ TCGA-PANCAN-HiSeq-801x20531.tar.gz
 
 You can obtain it from the [UCI ML Repository](https://archive.ics.uci.edu/dataset/401/gene+expression+cancer+rna+seq) or via the `ucimlrepo` package (see the notebook).
 
-### Run
-
-```bash
-jupyter notebook Cancer_types_model.ipynb
-```
-
----
-
-## Project Structure
-
-```
-.
-├── Cancer_types_model.ipynb      # Main notebook
-├── TCGA-PANCAN-HiSeq-801x20531.tar.gz   # Raw dataset (download separately)
-└── cancer_data/                  # Extracted data (auto-generated)
-    └── TCGA-PANCAN-HiSeq-801x20531/
-        ├── data.csv
-        └── labels.csv
-```
-
 ---
 
 ## Tech Stack
